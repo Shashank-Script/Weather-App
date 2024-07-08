@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    body{
+        @apply bg-gradient-to-r from-sky-500 to-indigo-500
+    }
+}
